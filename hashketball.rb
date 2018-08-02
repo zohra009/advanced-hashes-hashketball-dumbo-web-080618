@@ -186,7 +186,7 @@ end
 
 def player_stats(name)
   all_players.each do |player, stats|
-    return stats
+    return stats[:players]
   end
 end
 #
